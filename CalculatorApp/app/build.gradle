@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'hcmute.edu.vn.calculatorproject'
+    namespace 'hcmute.edu.vn.calculatorapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "hcmute.edu.vn.calculatorproject"
+        applicationId "hcmute.edu.vn.calculatorapp"
         minSdk 27
         targetSdk 33
         versionCode 1

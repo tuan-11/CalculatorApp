@@ -1,4 +1,4 @@
-package hcmute.edu.vn.calculatorproject;
+package hcmute.edu.vn.calculatorapp;
 
 import org.junit.Test;
 

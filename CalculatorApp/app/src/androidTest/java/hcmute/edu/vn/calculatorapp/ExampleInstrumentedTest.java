@@ -1,4 +1,4 @@
-package hcmute.edu.vn.calculatorproject;
+package hcmute.edu.vn.calculatorapp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("hcmute.edu.vn.calculatorproject", appContext.getPackageName());
+        assertEquals("hcmute.edu.vn.calculatorapp", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package hcmute.edu.vn.calculatorproject;
+package hcmute.edu.vn.calculatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,9 +9,8 @@ import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 
-import java.text.DecimalFormat;
+public class MainActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity{
     String [] BODMAS_RULE = {"÷","×","\\+","-"};
     int CURRENT_RULE = -1;
     int calculation = -1; // Phép tính thể hiện qua 0-cộng, 1-trừ, 2-nhân, 3-chia, -1(chưa chọn phép tính)
